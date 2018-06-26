@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/vetsPic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/vetspicture"
+        />
+
+    <TextView
+        android:id="@+id/vetsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultVetName"
+        android:layout_toRightOf="@id/vetsPic"
+        android:layout_marginLeft="4dp"
+        />
+
+    <TextView
+        android:id="@+id/vetsDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultVetLocation"
+        android:layout_toRightOf="@id/vetsPic"
+        android:layout_below="@id/vetsName"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="4dp"
+        />
+
+    <Button
+        android:id="@+id/btn_more_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/more_info"
+        android:textAllCaps="false"
+        android:layout_below="@id/vetsPic"
+        android:layout_toRightOf="@id/vetsPic"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/phonecall"
+        android:background="@null"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

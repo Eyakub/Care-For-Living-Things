@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".VetInfo.ProfileDetails">
+
+    <ImageView
+        android:id="@+id/profilePic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/vetspicture"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/name_title"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/vetsName"
+            android:text="@string/defaultVetName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"/>
+        <TextView
+            android:id="@+id/vetPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_mobile"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_number"/>
+        <TextView
+            android:id="@+id/vetMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_phone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/email"/>
+        <TextView
+            android:id="@+id/vetEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_Email"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/location_title"/>
+        <TextView
+            android:id="@+id/vetsLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/defaultVetLocation"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp">
+        <TextView
+            android:id="@+id/vetOthers"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/others"/>
+    </LinearLayout>
+</LinearLayout>

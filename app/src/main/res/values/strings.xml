@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CareForLivingThings</string>
+    <string name="appScreenTitle">Care For Pets</string>
+    <string name="defaultVetName">Eyakub</string>
+    <string name="defaultVetLocation">Dhaka</string>
+    <string name="default_District">Dhaka</string>
+    <string name="default_Email">eyakubsorkar@gmail.com</string>
+    <string name="default_phone">01933333</string>
+    <string name="default_mobile">45234</string>
+
+    <string name="more_info">More Info</string>
+    
+    <string name="name_title">Name:</string>
+    <string name="district_title">District:</string>
+    <string name="location_title">Location:</string>
+    <string name="mobile_number">Mobile:</string>
+    <string name="phone_number">Phone:</string>
+    <string name="others">Others:</string>
+    <string name="email">Email:</string>
+    <string name="url">URL:</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cats"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/catsBackgroundText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Care For Living Things"
+        android:textSize="26dp"
+        android:textColor="@color/ash"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        />
+
+    <Button
+        android:id="@+id/vetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="93dp"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        android:padding="8dp"
+        android:shadowColor="#A8A8A8"
+        android:text="Call For Vet"
+        android:textAllCaps="false"
+        android:textColor="@color/deep_blue_grey"
+        android:textSize="24sp" />
+
+</RelativeLayout>
